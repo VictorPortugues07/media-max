@@ -23,6 +23,7 @@ const steps: Step[] = [
       { id: "responsavel", type: "text", label: "Nome do responsável", required: true, placeholder: "Ex.: José Silva", autoComplete: "name" },
       { id: "whatsapp", type: "tel", label: "WhatsApp", required: true, autoComplete: "tel" },
       { id: "instagramSite", type: "text", label: "Instagram e/ou site", optional: true, placeholder: "@suaconta ou https://…" },
+      { id: "categoria", type: "select", label: "Categoria do estabelecimento", required: true, options: [...CATEGORIAS], other: true, otherPlaceholder: "Qual categoria?" },
     ],
   },
   {

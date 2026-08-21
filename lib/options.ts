@@ -54,8 +54,6 @@ export const VALORES_PONTO = [
 export const CATEGORIAS_RECUSADAS = [
   "Concorrentes diretos",
   "Bebidas alcoólicas",
-  "Tabaco / Cigarros eletrônicos",
-  "Conteúdo adulto / 18+",
   "Apostas / Casas de apostas",
   "Política / Partidos",
   "Outro",
